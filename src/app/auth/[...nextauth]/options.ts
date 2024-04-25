@@ -63,7 +63,6 @@ export const authOptions: NextAuthOptions = {
                 session.user.isVerified = token.isVerified,
                 session.user.isAcceptingMessages = token.isAcceptingMessages
             }
-
             return session
         }
     },
